@@ -8,8 +8,7 @@ const config = {
   whitelist: [
     '.babelrc',
     'build',
-    'babel-polyfill',
-    'node_modules/.bin'
+    'babel-polyfill'
   ].concat(userConfig.whitelist),
   blacklist: [
     '__mocks__',
